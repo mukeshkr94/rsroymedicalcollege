@@ -112,3 +112,7 @@ padding: 0 ;
 .bi-instagram:hover{
 color: orange;
 }
+.bg-primary {
+ 
+    background-image: linear-gradient(45deg, #ed8a19, #4248fb)!important;
+}
