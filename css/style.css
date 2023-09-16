@@ -1,0 +1,114 @@
+*{
+  box-sizing:border-box;
+}
+.logo{
+  width: 80px;
+  height: auto;
+    margin-left: 33px;
+}
+.brandname{
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0;
+
+  }
+  .brandadd{
+    font-size: 12px
+  }
+body{
+  background: #e0f7fa;
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight: 700
+}
+.navbar-nav {
+
+    padding-left: 20px;
+
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    color: rgb(0 0 0);
+    font-weight: 600;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+
+    color: rgb(255 255 255);
+
+}
+/* about achievement */
+
+
+.abt1, .abt2, .abt3{
+  border: 2px dashed blue;
+  padding: 0px 40px;
+  margin: 0px 20px;
+  border-radius:8px
+}
+
+/* our departments */
+
+.dept{
+  box-shadow: 1px 1px 7px 2px lightgray;
+  border-radius: 8px
+}
+.dept:hover{
+  background-image: linear-gradient(115deg, lightgray, skyblue);
+  color: white;
+
+}
+.dept p{
+    text-align: justify;
+}
+
+
+/* our doctors */
+
+.doc{
+  width: 25rem;
+  height: 20rem;
+}
+
+
+/* footer */
+.footer{
+  background-image: url('../image/footer.jpg');
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: cover;
+  height: 55vh
+}
+.footer-logo{
+  width: 70px;
+  height: auto;
+padding: 5px
+}
+ul li{
+  list-style: none;
+  padding-top: 5px;
+}
+ul{
+padding: 0 ;
+}
+
+.bi-twitter,
+.bi-facebook,
+.bi-whatsapp,
+.bi-youtube,
+.bi-linkedin,
+.bi-instagram{
+  margin-left: 5px;
+  font-size: 30px;
+  color:blue;
+  cursor: pointer;
+}
+.bi-twitter:hover,
+.bi-facebook:hover,
+.bi-whatsapp:hover,
+.bi-youtube:hover,
+.bi-linkedin:hover,
+.bi-instagram:hover{
+color: orange;
+}
